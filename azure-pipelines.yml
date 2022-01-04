@@ -31,7 +31,7 @@ stages:
         versionSpec: '14.x'
 
     - task: Npm@1
-      displayName: 'Run npm ci'
+      displayName: 'Run npm install'
       inputs:
         verbose: false
 
